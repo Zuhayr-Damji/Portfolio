@@ -1,0 +1,14 @@
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: grey;
+    align-items: center;
+    /* margin-inline: 8px; */
+}
+
+.nonLogo{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}

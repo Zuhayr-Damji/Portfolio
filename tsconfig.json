@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "components/Goose.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
