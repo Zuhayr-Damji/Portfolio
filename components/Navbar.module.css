@@ -4,11 +4,16 @@
     justify-content: space-between;
     background-color: grey;
     align-items: center;
-    /* margin-inline: 8px; */
+    /* align-items: center; */
+
+
+    padding-inline: 8px;
 }
 
 .nonLogo{
     display: flex;
+    align-items: center;
     flex-direction: row;
     gap: 16px;
+    height: 100%;
 }

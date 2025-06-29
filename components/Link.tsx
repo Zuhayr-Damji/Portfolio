@@ -1,5 +1,5 @@
 import React from "react";
-
+import style from "./Link.module.css";
 
 interface LinkProps{
     text: string;
@@ -7,8 +7,8 @@ interface LinkProps{
 
 export default function Link({text}:LinkProps){
     return(
-        <div>
-            <h3 className="bruh">{text}</h3>
+        <div className={style.Link}>
+            <h3 className={style.LinkText}>{text}</h3>
         </div>
     );
 }
