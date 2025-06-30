@@ -1,0 +1,21 @@
+.ProcessFrame{
+    display: flex;
+    gap: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 64px; 
+    padding-bottom: 64px; 
+}
+
+.headers{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+}
+
+.StepsFrame{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

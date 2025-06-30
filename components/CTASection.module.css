@@ -1,0 +1,17 @@
+.CTASection{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    /* height: 256px; */
+}
+
+.CTAFrame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}

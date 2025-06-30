@@ -15,7 +15,7 @@ export default function Hero(){
                 <div className={style.UpperLeftFrame}>
                     <div className={style.Headers}>
                         <h1>You don't have to pay a fortune to have an excellent website</h1>
-                        <h4>We offer custom designs so that you can work without worrying whether your website is actually converting</h4>
+                        <h5>We offer custom designs so that you can work without worrying whether your website is actually converting</h5>
                     </div>
                     <CTA />
                 </div>

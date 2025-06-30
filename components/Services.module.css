@@ -1,0 +1,27 @@
+.Services{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 48px;
+}
+
+
+.headers{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.IconsDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+}
+
+.IconsDiv > *{
+    width: 250px;
+    text-align: center;
+}
