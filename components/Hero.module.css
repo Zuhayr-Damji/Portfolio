@@ -1,0 +1,29 @@
+.Hero{
+    display: flex;
+    /* background-color: #b62c2c; */
+    justify-content: space-between;
+    align-items: center;
+    border: 0.5px solid grey;
+
+
+    padding: 16px 32px 16px 32px;
+    gap: 32px;
+}
+
+.LeftFrame{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.UpperLeftFrame{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    /* height: 500px; */
+}
+.Headers{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

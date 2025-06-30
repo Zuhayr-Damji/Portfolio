@@ -40,12 +40,6 @@ button, input, label {
   line-height: 1.1;
 }
 
-/* Balance text wrapping on headings */
-h1, h2,
-h3, h4 {
-  text-wrap: balance;
-}
-
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
@@ -79,9 +73,6 @@ textarea:not([rows]) {
   margin: 0;
 }
 /* RESET END */
-
-
-
 
 :root{
     /* dektop sizes, 1.25 ratio with 16px base */
@@ -118,4 +109,36 @@ textarea:not([rows]) {
     --secondary-700: hsl(1,90%,30%);
     --secondary-800: hsl(1,90%,20%);
     --secondary-900: hsl(1,90%,10%);
+}
+
+h1{
+  font-size: var(--h1-size);
+}
+
+h2{
+  font-size: var(--h2-size);
+}
+
+h3{
+  font-size: var(--h3-size);
+}
+
+h4{
+  font-size: var(--h4-size);
+}
+
+h5{
+  font-size: var(--h5-size);
+}
+
+h6{
+  font-size: var(--h6-size);
+}
+
+p{
+  font-size: var(--p-size);
+}
+
+small{
+  font-size: var(--small-size);
 }

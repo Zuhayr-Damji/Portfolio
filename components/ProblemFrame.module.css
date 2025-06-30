@@ -1,0 +1,19 @@
+.ProblemFrame{
+    padding-inline: 64px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    gap: 64px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    text-align: center;
+}
+
+.bulletPoints > li{
+    font-size: var(--h4-size);
+}
