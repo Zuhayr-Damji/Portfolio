@@ -20,6 +20,5 @@ export default function Navbar({logo, links, CTA}: NavbarProps) {
                 {CTA}
             </div>
         </div>
-
     );
 }

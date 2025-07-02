@@ -10,9 +10,11 @@ export default function SolutionFrame({image}:SolutionFrameProps){
         <div className={style.SolutionFrame}>
             {image}
             <div className={style.Text}>
-                <h3>That's where we come in</h3>
-                <h6>
-                    We do ____ that ____(outcome they care about), what differentiates you, if appropriate position your service as a partner in their success e.g your website should work as hard as you do. Mention how you have authority in this field e.g we’ve worked with ___ companies or done 2000 years of experience
+                <h3>This is exactly what I help with</h3>
+                <h6>                    
+                    I design websites that not only look great but also build trust, drive results, and help your business grow consistently over time.
+                    Even though I’m just starting out professionally, I’ve spent countless focused hours learning exactly what makes visitors click, stay, and take action on a website.
+                    I treat every project like a partnership. Your success is the goal — and I’m here to build the kind of site that helps you get there.
                 </h6>
             </div>
         </div>

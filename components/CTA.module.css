@@ -10,11 +10,11 @@
     /* margin: 0; */
 
     color: white;
-    background-color: black;
+    background-color: var(--primary-600);
     border: 0;
     width: fit-content;
 }
 
 .CTA:hover{
-    background-color: var(--primary-900);
+    background-color: var(--primary-500);
 }

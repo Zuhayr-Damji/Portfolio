@@ -3,6 +3,7 @@ import IconWithText from "./IconWithText";
 import Logo from "./Logo";
 
 import style from "./Benefits.module.css";
+import TemplateImage from "./TemplateImage";
 
 export default function Benefits() {
   return (
@@ -14,17 +15,17 @@ export default function Benefits() {
         </div>
         <div className={style.IconsDiv}>
           <IconWithText
-            Icon=<Logo />
+            Icon=<TemplateImage />
             subText={"Benefit 1"}
             Text={"Here is more detail"}
           />
           <IconWithText
-            Icon=<Logo />
+            Icon=<TemplateImage />
             subText={"Benefit 2"}
             Text={"Here is more more detail"}
           />
           <IconWithText
-            Icon=<Logo />
+            Icon=<TemplateImage />
             subText={`Benefit 3)`}
             Text={"Here is more more more detail"}
           />

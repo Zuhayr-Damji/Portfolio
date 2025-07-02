@@ -1,10 +1,11 @@
 .ProcessFrame{
     display: flex;
     gap: 32px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
     padding-top: 64px; 
     padding-bottom: 64px; 
+    justify-content: space-between;
 }
 
 .headers{

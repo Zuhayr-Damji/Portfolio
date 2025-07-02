@@ -5,13 +5,18 @@ export default function ProblemFrame(){
     return(
         <div className={style.ProblemFrame}>
             <h3 className={style.header}>We know running a business means juggling a hundred things, managing your website shouldn’t be one of them</h3>
-            <h5>Without [missing element], [ideal client] often [undesirable outcome]. That means you’re [cost or consequence that they care about] — not because [blame], but because [real reason].
-            I’m sure most of these apply to your business:</h5>
-            <ul className={style.bulletPoints}>
-                <li>Pain Point 1</li>
-                <li>Pain Point 2</li>
-                <li>Pain Point 3</li>
-            </ul>
+            <div className={style.SubText}>
+                <h5>
+                    If your website doesn't look professional, clients start to question whether your business is. 
+                    You're not losing leads because they're the wrong fit — you're losing them because your website doesn't earn their trust.
+                    Chances are, you're facing at least one of these:
+                </h5>
+                <ul className={style.bulletPoints}>
+                    <li>Visitors land on your site but don’t take action</li>
+                    <li>You’re embarrassed to share your link</li>
+                    <li>You’ve spent time (or money) on your site, but it’s not converting</li>
+                </ul>
+            </div>
         </div>
     );
 }

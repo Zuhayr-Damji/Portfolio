@@ -15,17 +15,17 @@ export default function Hero(){
                 <div className={style.UpperLeftFrame}>
                     <div className={style.Headers}>
                         <h1>You don't have to pay a fortune to have an excellent website</h1>
-                        <h5>We offer custom designs so that you can work without worrying whether your website is actually converting</h5>
+                        <h5>Get a high-converting website through custom design without spending weeks building it yourself</h5>
                     </div>
                     <CTA />
                 </div>
             </div>
-            <Image
-                src="/images/onionRings.jpeg"
-                width={500}
+            {/* <Image
+                src="/images/Hero-img-bg.jpg"
+                width={750}
                 height={500}
                 alt="onion rings"
-            />
+            /> */}
         </div>
     );
 }

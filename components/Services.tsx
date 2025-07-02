@@ -1,34 +1,64 @@
 import React from "react";
 import IconWithText from "./IconWithText";
-import Logo from "./Logo";
+import Image from "next/image";
 
 import style from "./Services.module.css";
+import { StringLiteral } from "typescript";
+
+interface IconWIthTextProps {
+  IconPath: string;
+  Alt: string;
+  subText: string;
+  Text: string;
+}
 
 export default function Services() {
-    return (
-        <div className={style.Services}>
-            <div className={style.headers}>
-                <h3>Our Services</h3>
-                <h6>Choose from our range of solutions</h6>
-            </div>
-            <div className={style.IconsDiv}>
-                <IconWithText 
-                    Icon=<Logo/>
-                    subText={"SEO Optimisation"}
-                    Text={"Enhance your search visibility"}
-                    />
-                <IconWithText 
-                    Icon=<Logo/>
-                    subText={"Content Creation"}
-                    Text={"Engaging and relevant content"}
-                    />
-                <IconWithText 
-                    Icon=<Logo/>
-                    subText={`Site Audits (Most Popular)`}
-                    Text={"Identify and fix website issues"}
-                    />
+  const DefaultWidth = 100;
+  const DefaultHeight = 100;
 
-            </div>
-        </div>
-    );
+  const ServiceItems: IconWIthTextProps[] = [
+    {
+      IconPath: "images/SEO-icon.svg",
+      Alt: "Magnifying Glass icon",
+      subText: "Search Engine Optimisation",
+      Text: "Boosts search ranking and visibility, making it easier for new customers to find your business, keeping it ahead of the competition.",
+    },
+    {
+      IconPath: "images/Accessibility-icon.svg",
+      Alt: "Accessibility icon",
+      subText: "Improving Accessibility",
+      Text: "Makes your website user-friendly for everyone, allowing you to provide an inclusive experience without the hassle.",
+    },
+    {
+      IconPath: "images/Launch-icon.svg",
+      Alt: "Rocket Ship icon",
+      subText: "Setup & Launch all done for you",
+      Text: "From setup to launch, everything is handled for you, so you can focus on running your business — not Googling how to fix a button.",
+    },
+  ];
+
+  return (
+    <div className={style.Services}>
+      <div className={style.headers}>
+        <h3>What I can offer you</h3>
+        <h6>How I can help your business more specifically</h6>
+      </div>
+      <div className={style.IconsDiv}>
+        {ServiceItems.map((ServiceItem) => {
+          return (
+            <IconWithText
+              Icon=<Image
+                src={ServiceItem.IconPath}
+                width={DefaultWidth}
+                height={DefaultHeight}
+                alt={ServiceItem.Alt}
+              />
+              subText={ServiceItem.subText}
+              Text={ServiceItem.Text}
+            />
+          );
+        })}
+      </div>
+    </div>
+  );
 }

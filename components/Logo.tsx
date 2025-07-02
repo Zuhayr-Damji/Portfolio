@@ -1,14 +1,14 @@
 import React from "react";
-import Image from 'next/image';
+import Link from "next/link";
+
 import style from "./Logo.module.css";
 
-export default function Logo({width=100,height=100}){
-    return(
-        <Image 
-            src="/images/onionRings.jpeg"
-            width={width}
-            height={height}
-            alt="onion rings"
-        />
-    );
+export default function Logo() {
+  return (
+    <Link href="/" legacyBehavior>
+      <a className={style.LogoText}>
+        <h6>Zuhayr Damji | Web Designer and Developer</h6>
+      </a>
+    </Link>
+  );
 }

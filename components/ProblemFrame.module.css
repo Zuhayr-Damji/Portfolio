@@ -10,10 +10,19 @@
     align-items: center;
 }
 
+.SubText{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
 .header{
     text-align: center;
 }
 
 .bulletPoints > li{
-    font-size: var(--h4-size);
+    font-size: var(--h5-size);
+    font-weight: 300;
 }

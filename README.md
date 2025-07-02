@@ -3,8 +3,10 @@
 TODO List
 
 
-Text styles
-Decide Colour Palette
-Responsiveness
-Copywriting
+3. Copywriting
+Make Navbar move
+4. Responsiveness
+5. Add animations
+
+low priority:
 Find Best Practices for file management

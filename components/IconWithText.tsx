@@ -13,8 +13,10 @@ export default function IconWithText({Icon, subText, Text}: IconWithTextProps) {
     return (
         <div className={style.IconWithText}>
             {Icon}
-            <p>{subText}</p>
-            <h6>{Text}</h6>
+            <div className={style.text}>
+                <h6 className={style.smallh6}>{subText}</h6>
+                <h6>{Text}</h6>
+            </div>
         </div>
     );
 }
