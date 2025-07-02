@@ -42,8 +42,6 @@ export default function main() {
 
       <Services />
 
-      <Benefits />
-
       <Process />
 
       <FAQSection />

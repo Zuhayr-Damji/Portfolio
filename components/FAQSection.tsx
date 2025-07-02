@@ -9,23 +9,20 @@ export default function FAQSection() {
       <h3 className={style.title}>FAQs</h3>
       <div className={style.FAQFrame}>
         <FAQ
-          Question="What services do you offer?"
-          Answer="We offer a wide range of services including product support, 
-          customer service, and account management."
+          Question="How long does it take to build a website?"
+          Answer="Most projects take 2–4 weeks from start to finish, depending on the size and complexity. I’ll give you a timeline up front and keep you updated every step of the way."
         />
         <FAQ
-          Question="How can I reset my password?"
-          Answer="Click on 'Forgot Password' on the login page, and follow 
-          the instructions to reset your password."
+          Question="Do you offer ongoing support after launch?"
+          Answer="Yes — I offer optional maintenance plans or ad-hoc support after your site goes live. Whether you need updates, fixes, or just peace of mind, I’ve got you covered"
         />
         <FAQ
-          Question="Where can I view my order history?"
-          Answer="You can view your order history in the 'My Account' section under 'Orders'."
+          Question="Will my site be mobile-friendly?"
+          Answer="Absolutely. Every site I build is fully responsive, meaning it looks and works great on phones, tablets, and desktops — no extra charge."
         />
         <FAQ
-          Question="What is your return policy?"
-          Answer="You can return any item within 30 days of purchase 
-          as long as it’s in its original condition.."
+          Question="What do you need from me to get started?"
+          Answer="Usually just your logo, any written content or images you have, and a quick chat about your goals. If you’re not sure where to start, I can guide you through it."
         />
       </div>
     </div>

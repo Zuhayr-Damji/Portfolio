@@ -10,9 +10,9 @@ export default function Process(){
                 <h6>Here is Some Text</h6>
             </div>
             <div className={style.StepsFrame}>
-                <ProcessStep StepNumber={1} StepText={"This is some text"} />
-                <ProcessStep StepNumber={2} StepText={"Step 2"} />
-                <ProcessStep StepNumber={3} StepText={"Step 3"} />
+                <ProcessStep StepNumber={1} StepText={"We have with a call where I ask you some questions about your business"} />
+                <ProcessStep StepNumber={2} StepText={"I create a design. Once you approve it, I begin development and bring your vision to life"} />
+                <ProcessStep StepNumber={3} StepText={"Your website goes live. Your site starts doing what it was built to do: grow your business."} />
             </div>
         </div>
     );

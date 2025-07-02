@@ -1,11 +1,9 @@
-.Benefits{
+.Services{
     padding: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 48px;
-    border: 0.5px solid grey;
-
 }
 
 
@@ -16,14 +14,9 @@
     gap: 8px;
 }
 
-.IconsDiv{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 32px;
-}
 
-.IconsDiv > *{
-    width: 250px;
-    text-align: center;
+.IconsDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
 }

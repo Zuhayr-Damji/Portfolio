@@ -4,6 +4,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 12px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .nonLogo{

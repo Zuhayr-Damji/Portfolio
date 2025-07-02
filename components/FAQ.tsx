@@ -10,7 +10,7 @@ interface FAQProps{
 export default function FAQ({Question, Answer}: FAQProps) {
     return(
         <div className={style.FAQ}>
-            <h6>{Question}</h6>
+            <h5>{Question}</h5>
             <p>{Answer}</p>
         </div>
     );

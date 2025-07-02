@@ -3,7 +3,6 @@ import IconWithText from "./IconWithText";
 import Image from "next/image";
 
 import style from "./Services.module.css";
-import { StringLiteral } from "typescript";
 
 interface IconWIthTextProps {
   IconPath: string;
@@ -13,6 +12,7 @@ interface IconWIthTextProps {
 }
 
 export default function Services() {
+
   const DefaultWidth = 100;
   const DefaultHeight = 100;
 
@@ -27,7 +27,7 @@ export default function Services() {
       IconPath: "images/Accessibility-icon.svg",
       Alt: "Accessibility icon",
       subText: "Improving Accessibility",
-      Text: "Makes your website user-friendly for everyone, allowing you to provide an inclusive experience without the hassle.",
+      Text: "Makes your website user-friendly for everyone, allowing you to easily provide an inclusive experience without the hassle.",
     },
     {
       IconPath: "images/Launch-icon.svg",
@@ -40,8 +40,8 @@ export default function Services() {
   return (
     <div className={style.Services}>
       <div className={style.headers}>
-        <h3>What I can offer you</h3>
-        <h6>How I can help your business more specifically</h6>
+        <h3>What You Get With Every Project</h3>
+        <h6>From visibility to usability — essential features built into every website I deliver.</h6>
       </div>
       <div className={style.IconsDiv}>
         {ServiceItems.map((ServiceItem) => {
