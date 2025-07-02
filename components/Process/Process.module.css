@@ -1,0 +1,22 @@
+.processFrame{
+    display: flex;
+    gap: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 64px; 
+    padding-bottom: 64px; 
+    justify-content: space-between;
+}
+
+.headers{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+}
+
+.stepsFrame{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

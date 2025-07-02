@@ -1,0 +1,13 @@
+.link{
+    height: min-content;
+    /* margin-top: 0 !important; */
+    /* background-color: red; */
+}
+
+
+.linkText{
+    /* height: min-content; */
+    margin-top: 0 !important;
+    /* background-color: blue; */
+    overflow: wrap;
+}

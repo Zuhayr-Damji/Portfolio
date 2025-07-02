@@ -1,0 +1,30 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../../public/images/Hero-img-bg.jpg");
+    background-size: cover;
+    height: 950px;
+    
+    padding: 16px 32px 16px 32px;
+    gap: 32px;
+}
+
+.leftFrame{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.upperLeftFrame{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    width: 50%;
+}
+
+.headers{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

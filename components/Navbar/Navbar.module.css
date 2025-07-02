@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nonLogo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+    height: 100%;
+}

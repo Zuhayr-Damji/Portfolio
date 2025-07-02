@@ -1,0 +1,15 @@
+.faqSection{
+    border: 0.5px solid grey;
+    padding: 12px;
+}
+
+.title{
+    text-align: center;
+}
+
+.faqFrame{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 16px;
+}

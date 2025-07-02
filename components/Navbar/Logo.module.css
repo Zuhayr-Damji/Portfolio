@@ -1,0 +1,5 @@
+.logoText{
+    color: var(--primary-500);
+    text-decoration: none;
+    cursor: pointer;
+}
