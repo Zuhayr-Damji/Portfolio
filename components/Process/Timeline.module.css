@@ -1,0 +1,15 @@
+.steps{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.line{
+  border-left: 6px solid green;
+  height: 100%;
+  width: 30px;
+  position: relative;
+  left: 25px;
+  top: 100px;
+  z-index: -2;
+}

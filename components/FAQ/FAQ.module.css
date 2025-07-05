@@ -2,8 +2,23 @@
     border-radius: 6px;
     border: hsl(0,0%,0%,0.2) 1px solid;
     padding: 8px;
-
+    gap: 6px;
     display: flex;
     flex-direction: column;
-    /* gap: 4px; */
+    box-shadow: 4px 4px 16px -3px rgba(0, 0, 0, 0.75);
+}
+
+.faq:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 6px 16px -3px rgba(0, 0, 0, 0.75);
+    transition: all 0.3s ease;
+}
+
+.question{
+    font-weight: 700;
+
+}
+
+.answer{
+    font-weight: 400;
 }

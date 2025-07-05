@@ -52,6 +52,7 @@ export default function Services() {
                 width={DefaultWidth}
                 height={DefaultHeight}
                 alt={ServiceItem.Alt}
+                className={style.icon}
               />
               subText={ServiceItem.subText}
               Text={ServiceItem.Text}

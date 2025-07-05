@@ -8,6 +8,15 @@
     /* height: 256px; */
 }
 
+.headers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 8px;
+}
+
 .ctaFrame{
     display: flex;
     flex-direction: column;

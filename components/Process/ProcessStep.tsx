@@ -3,17 +3,19 @@ import style from "./ProcessStep.module.css";
 
 interface ProcessStepProps {
     StepNumber: number;
-    StepText: string;
+    StepHeading: string;
+    StepSubHeading: string;
 }
 
-export default function ProcessStep({StepNumber, StepText}:ProcessStepProps){
+export default function ProcessStep({StepNumber, StepHeading, StepSubHeading}:ProcessStepProps){
     return (
         <div className={style.outerFrame}>
-            <div className={style.numberFrame}>
-                <h3>{StepNumber}</h3>
-            </div>
+            {/* <div className={style.numberFrame}>
+                <h3 className={style.stepNumber}>{StepNumber}</h3>
+            </div> */}
             <div className={style.textFrame}>
-                <h5>{StepText}</h5>
+                <h5 className={style.heading}>{StepHeading}</h5>
+                <h6>{StepSubHeading}</h6>
             </div>
         </div>
     );

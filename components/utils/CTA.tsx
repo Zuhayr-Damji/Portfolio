@@ -5,7 +5,7 @@ export default function CTA(){
     return (
         <button 
             className={style.cta}>
-            Contact
+            Contact Me
         </button>
     );
 }

@@ -1,0 +1,13 @@
+.aboutContainer{
+    padding-top: 128px;
+    background: lightgrey;
+    display: flex;
+    flex-direction: column;
+    /* gap: 8px; */
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

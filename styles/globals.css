@@ -75,15 +75,19 @@ textarea:not([rows]) {
 /* RESET END */
 
 :root{
-  /* dektop sizes, 1.25 ratio with 16px base */
-  --h1-size: 61px;
-  --h2-size: 49px;
-  --h3-size: 39px;
-  --h4-size: 31px;
-  --h5-size: 25px;
-  --h6-size: 20px;
-  --p-size:16px;
-  --small-size:13px;
+
+  
+  --base-font-size: 1rem;
+  --font-scale: 1.25;
+
+  --p-size: var(--base-font-size);
+  --small-size: calc(var(--p-size) / var(--font-scale));
+  --h6-size: calc(var(--p-size) * var(--font-scale));
+  --h5-size: calc(var(--h6-size) * var(--font-scale));
+  --h4-size: calc(var(--h5-size) * var(--font-scale));
+  --h3-size: calc(var(--h4-size) * var(--font-scale));
+  --h2-size: calc(var(--h3-size) * var(--font-scale));
+  --h1-size: calc(var(--h2-size) * var(--font-scale));
 
   font-family: 'Manrope', 'Trebuchet MS';
 
@@ -96,16 +100,6 @@ textarea:not([rows]) {
   --primary-700: hsl(210, 92%, 7%);
   --primary-800: hsl(210, 96%, 4%);
   --primary-900: hsl(210, 98%, 2%);
-
-  --secondary-100: hsl(1, 0%, 90%);
-  --secondary-200: hsl(1, 0%, 80%);
-  --secondary-300: hsl(1, 0%, 70%);
-  --secondary-400: hsl(1, 0%, 60%);
-  --secondary-500: hsl(1, 0%, 50%);
-  --secondary-600: hsl(1, 0%, 40%);
-  --secondary-700: hsl(1, 0%, 30%);
-  --secondary-800: hsl(1, 0%, 20%);
-  --secondary-900: hsl(1, 0%, 10%);
 }
 
 h1 {
@@ -156,4 +150,9 @@ small {
   font-size: var(--small-size);
   line-height: 1.4;
   letter-spacing: 0.2px;
+}
+
+.emphasisedText{
+    color: var(--primary-300);
+    font-weight: 700;
 }

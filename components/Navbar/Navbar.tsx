@@ -1,23 +1,22 @@
 import React from "react";
 import style from "./Navbar.module.css";
+import Link from "./Link";
 
-interface NavbarProps {
-    logo: React.ReactNode;
-    links: React.ReactNode
-    CTA: React.ReactNode;
-}
+import CTA from "../utils/CTA";
+import Logo from "./Logo";
 
 
-export default function Navbar({logo, links, CTA}: NavbarProps) {
+export default function Navbar() {
 
     return (
         <div className={style.navbar}>
             <div>
-                {logo}
+                <Logo/>
             </div>
             <div className={style.nonLogo}>
-                {links}
-                {CTA}
+                {/* <Link text="Projects" /> */}
+                <Link text="About Me" />
+                <CTA />
             </div>
         </div>
     );

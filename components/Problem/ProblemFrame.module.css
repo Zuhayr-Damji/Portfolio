@@ -13,9 +13,13 @@
 .subText{
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    justify-content: center;
-    align-items: center;
+    gap: 48px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.subHeading{
+    padding-inline: 192px;
 }
 
 .header{
@@ -23,6 +27,11 @@
 }
 
 .bulletPoints > li{
-    font-size: var(--h5-size);
-    font-weight: 300;
+    font-size: var(--h4-size);
+    font-weight: 500;
+}
+
+.emphasisedText{
+    color: var(--primary-300);
+    font-weight: 700;
 }

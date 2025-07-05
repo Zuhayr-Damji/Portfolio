@@ -1,10 +1,12 @@
 .faqSection{
     border: 0.5px solid grey;
     padding: 12px;
+    background-color: var(--primary-800);
 }
 
 .title{
     text-align: center;
+    color: white;
 }
 
 .faqFrame{

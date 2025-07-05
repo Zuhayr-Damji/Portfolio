@@ -1,27 +1,41 @@
 .outerFrame{
     display: flex;
     height: fit-content;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.stepNumber{
+    color:white;
 }
 
 .numberFrame{
-    background-color: hsla(0,0%,0%,0.3);
-    border-radius: 12px 0px 0px 12px;
-    padding: 10px 16px;
+    border-radius: 50%;
+    padding: 8px;
     display: flex;
-    justify-content: center;
+    background-color: var(--primary-500);
+    justify-content:  center;
     align-items: center;
-    width: 55px;
+    width: 72px;
+    height: 72px !important;
+}
+
+.heading{
+    font-weight: 700;
 }
 
 .textFrame{
-    background-color: hsla(0,0%,0%,0.2);
-    border-radius: 0px 8px 8px 0px;
-
-    /* text-align: center; */
     padding-inline: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    /* width: 240px; */
+    gap: 4px;
+    border-radius: 12px;
+    border: hsl(0,0%,0%,0.2) 1px solid;
+    box-shadow: 4px 4px 16px -3px rgba(0,0,0,0.75);
+    width: 100%;
 }

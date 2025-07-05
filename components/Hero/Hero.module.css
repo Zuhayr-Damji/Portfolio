@@ -10,6 +10,15 @@
     gap: 32px;
 }
 
+.stuff{
+    background: radial-gradient(circle at center, var(--primary-300), var(--primary-600));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+
+}
+
 .leftFrame{
     display: flex;
     flex-direction: column;
@@ -20,7 +29,7 @@
     display: flex;
     flex-direction: column;
     gap: 48px;
-    width: 50%;
+    width: 70%;
 }
 
 .headers{
