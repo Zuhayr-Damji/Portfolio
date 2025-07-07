@@ -1,4 +1,7 @@
+'use client'
+
 import React from "react";
+
 import style from "./CTASection.module.css";
 import CTA from "../utils/CTA";
 
