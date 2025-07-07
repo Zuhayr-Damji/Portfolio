@@ -44,7 +44,7 @@ export default function Services() {
         <h6>From visibility to usability — essential features built into every website I deliver.</h6>
       </div>
       <div className={style.iconsDiv}>
-        {ServiceItems.map((ServiceItem) => {
+        {ServiceItems.map((ServiceItem,index) => {
           return (
             <IconWithText
               Icon=<Image
@@ -56,6 +56,7 @@ export default function Services() {
               />
               subText={ServiceItem.subText}
               Text={ServiceItem.Text}
+              key={index}
             />
           );
         })}

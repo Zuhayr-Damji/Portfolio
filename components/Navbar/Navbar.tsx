@@ -14,7 +14,6 @@ export default function Navbar() {
                 <Logo/>
             </div>
             <div className={style.nonLogo}>
-                {/* <Link text="Projects" /> */}
                 <Link text="About Me" />
                 <CTA />
             </div>

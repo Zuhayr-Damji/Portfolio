@@ -1,6 +1,5 @@
 import React from "react";
 import style from "./Process.module.css"
-import ProcessStep from "./ProcessStep";
 import Timeline from "./Timeline";
 
 export default function Process(){

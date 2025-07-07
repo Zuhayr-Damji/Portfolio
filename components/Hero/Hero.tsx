@@ -1,7 +1,6 @@
 import React from "react";
 import style from "./Hero.module.css";
 import CTA from "../utils/CTA";
-import Image from 'next/image';
 
 
 

@@ -13,6 +13,9 @@
     background-color: var(--primary-600);
     border: 0;
     width: fit-content;
+
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .cta:hover{
