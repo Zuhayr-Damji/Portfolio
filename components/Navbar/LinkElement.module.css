@@ -1,0 +1,16 @@
+.link{
+    height: min-content;
+    color: var(--primary-800);
+}
+
+
+.linkText{
+    margin-top: 0 !important;
+    overflow: wrap;
+}
+
+
+.test{
+    text-decoration: none;
+    cursor: pointer;
+}

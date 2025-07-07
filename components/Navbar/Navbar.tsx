@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Navbar.module.css";
-import Link from "./Link";
+import Link from "./LinkElement";
 
 import CTA from "../utils/CTA";
 import Logo from "./Logo";

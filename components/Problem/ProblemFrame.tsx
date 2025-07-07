@@ -12,9 +12,9 @@ export default function ProblemFrame(){
                     Chances are, you're facing at least one of these:
                 </h5>
                 <ul className={style.bulletPoints}>
-                    <li><span className={style.emphasisedText}>Visitors don’t take action</span > – even though they land on your site</li>
-                    <li><span className={style.emphasisedText}>You’re embarrassed to share your link</span > - because it doesn't reflect your brand</li>
-                    <li>You’ve spent time (or money) on your site, but <span className={style.emphasisedText}>it’s not holding anyone's attention</span ></li>
+                    <li><span className="emphasisedText">Visitors don’t take action</span > – even though they land on your site</li>
+                    <li><span className="emphasisedText">You’re embarrassed to share your link</span > - because it doesn't reflect your brand</li>
+                    <li>You’ve spent time (or money) on your site, but <span className="emphasisedText">it’s not holding anyone's attention</span ></li>
                 </ul>
             </div>
         </div>

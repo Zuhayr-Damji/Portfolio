@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function CTA() {
     return (
-        <Link href="/contact">
+        <Link href="/contact" className={style.test}>
             <button className={style.cta}>Contact Me</button>
         </Link>
     );

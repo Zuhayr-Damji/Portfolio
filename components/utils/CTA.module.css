@@ -21,3 +21,8 @@
 .cta:hover{
     background-color: var(--primary-500);
 }
+
+.test{
+    text-decoration: none;
+    cursor: pointer;
+}

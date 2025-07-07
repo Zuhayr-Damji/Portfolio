@@ -9,3 +9,8 @@
 
     background-color: white;
 }
+
+.Footer a{
+    text-decoration: none;
+    cursor: pointer;
+}

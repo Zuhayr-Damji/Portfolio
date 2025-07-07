@@ -14,8 +14,10 @@
     align-items: center;
     text-align: center;
     gap: 4px;
+    /* color: var(--primary-500); */
 }
 
 .smallh6{
     font-weight: 300;
+    /* color: var(--primary-500); */
 }
