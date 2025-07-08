@@ -12,8 +12,6 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
-    /* color: var(--primary-500); */
-
 }
 
 
@@ -21,8 +19,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
+    align-items: stretch;
 }
 
-.icon{
-    fill: brown;
+@media (max-width: 768px){
+    .iconsDiv{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .iconsDiv >:nth-child(3){
+    grid-column: 1 / -1; /* Span both columns */
+    display: flex;
+    justify-content: center;
+    }
 }

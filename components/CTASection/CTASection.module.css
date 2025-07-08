@@ -25,3 +25,8 @@
     align-items: center;
     gap: 8px;
 }
+
+.ctaSection > *{
+    text-align: center;
+    padding: 8px;
+}

@@ -1,7 +1,5 @@
 .problemFrame{
-    padding-inline: 64px;
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding: 32px;
     gap: 64px;
 
     display: flex;
@@ -18,9 +16,9 @@
 
 .subHeading{
     padding-inline: min(192px, calc(38.4vw - 115.2px));
-    /*css doesn't support nested calc so it's the same as min(192px,calc(38.4*(100vw-300px)))
-    we want the padding to be 0 from 0px-300px window-width, then rise to 192px between 300px-800px
-    the graph then goes through (300,0) and (800,192) so the gradient is 192/(800-300) = 0.384 
+    /* These values were picked because:
+    we want the padding to be 0px when the window-width is 0-300px, then rise linearly to 192px between 300px-800px.
+    The graph then goes through (300,0) and (800,192) so the gradient is 192/(800-300) = 0.384 
     we achieve the region of the graph that is 0 by translating the graph by the vector (300,0) which means padding = 0.384(x-300px)
     where 100vw = x, padding = 0.384(100vw-300px). This expands to 38.4vw - 115.2px 
     so finally, padding-inline: min(192px, calc(38.4 * 1vw - 115.2px)); 

@@ -10,7 +10,6 @@
 .text{
     display: flex;
     flex-direction: column;
-    gap: 32px;
 }
 
 .text *{
@@ -20,4 +19,11 @@
 .subText{
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 768px){
+    .solutionFrame{
+        flex-direction: column;
+        gap: 0px;
+    }
 }
