@@ -13,8 +13,11 @@
     gap: 32px;
 }
 
+.text *{
+    padding: 12px 0px;
+}
+
 .subText{
     display: flex;
     flex-direction: column;
-    gap:16px
 }
