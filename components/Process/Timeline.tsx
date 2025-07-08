@@ -3,19 +3,19 @@ import style from './Timeline.module.css';
 
 const steps = [
   {
-    title: '1. We book a call',
+    title: 'We book a call',
     description: "I ask you some questions to understand your business' goals",
-    backgroundColour: 'var(--primary-100)',
+    backgroundColour: 'var(--primary-400)',
   },
   {
-    title: '2. I create a design',
+    title: 'I create a design',
     description: 'Once you approve it, I begin development and bring your vision to life',
-    backgroundColour: 'var(--primary-200)',
+    backgroundColour: 'var(--primary-500)',
   },
   {
-    title: '3. Your website goes live',
+    title: 'Your website goes live',
     description: 'Your site starts doing what it was built to do: grow your business',
-    backgroundColour: 'var(--primary-300)',
+    backgroundColour: 'var(--primary-600)',
   },
 ];
 

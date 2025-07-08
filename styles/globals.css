@@ -97,7 +97,7 @@ textarea:not([rows]) {
   --primary-200: hsl(210, 27%, 55%);
   --primary-300: hsl(210, 43%, 38%);
   --primary-400: hsl(210, 64%, 23%);
-  --primary-500: hsl(210, 74%, 15%);
+  --primary-500: hsl(211, 74%, 15%);
   --primary-600: hsl(210, 83%, 10%);
   --primary-700: hsl(210, 92%, 7%);
   --primary-800: hsl(210, 96%, 4%);

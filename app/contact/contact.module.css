@@ -1,5 +1,51 @@
 .contact{
-    padding-top: 128px;
-    background-color: lightgrey;
+    padding-top: 75.5px;
     height: 100%;
+}
+
+.upperFrame{
+    display: flex;
+    justify-content: center;
+
+    background-image: url("../../public/images/envelope.png");
+    /* object-fit: cover; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 6720/4480;
+    width:100%;
+
+
+    align-items: center;
+    height: 256px;
+
+    /* z indexes this way so the flexContainer is above the upperFrame but the bg 
+    of the flexContainer is below the upperFrame */
+    z-index: 2;
+    position: relative;
+}
+
+.lowerFrame{
+    height: 256px;
+    background-color: var(--primary-100);
+    z-index: -2;
+}
+
+
+.flexContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    z-index: 2;
+    gap: 96px;
+    /* background-color: white; */
+
+    padding-inline: 128px;
+}
+
+.textFrame{
+    padding-top: 16px;
+    text-align: center;
+
 }
