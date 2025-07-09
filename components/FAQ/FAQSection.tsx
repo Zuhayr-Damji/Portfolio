@@ -21,7 +21,7 @@ export default function FAQSection() {
         <FAQ
           // background="var(--primary-100)"
           Question="Will my site be mobile-friendly? 📱"
-          Answer="Absolutely. Every site I build is fully responsive, meaning it looks and works great on phones, tablets, and desktops — no extra charge."
+          Answer="Absolutely. Every site I build is mpbile-friendly and responsive, meaning it looks and works great on phones, tablets, and desktops — no extra charge."
         />
         <FAQ
           background="var(--primary-100)"

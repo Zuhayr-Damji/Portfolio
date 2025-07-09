@@ -41,11 +41,30 @@
     gap: 96px;
     /* background-color: white; */
 
-    padding-inline: 128px;
+    padding-inline: clamp(1.5rem, 2vw + 1.1rem, 2rem);;
 }
 
 .textFrame{
     padding-top: 16px;
     text-align: center;
 
+}
+
+@media (max-width: 768px){
+    .contact{
+        padding-top: 0px;
+    }
+
+    .flexContainer{
+        flex-direction: column;
+        position: static;
+        margin-top: 0px;
+        gap: 8px;
+
+    }
+
+    .lowerFrame{
+        height: fit-content;
+        padding: 8px;
+    }
 }

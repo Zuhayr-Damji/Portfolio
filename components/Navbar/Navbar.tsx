@@ -13,8 +13,7 @@ export default function Navbar() {
     const toggleMenu = () => setMenuOpen(prev => !prev);
 
     return (
-        <div className={style.navbar}>
-            {/* Hamburger always shown on mobile */}
+        <div className={`${style.navbar} ${menuOpen ? style.open : ""}`}>
             <button className={style.menuButton} onClick={toggleMenu}>
                 <Image
                     src={menuOpen ? "/images/cross-icon.svg" : "/images/burger-icon.svg"}

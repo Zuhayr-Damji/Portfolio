@@ -1,11 +1,7 @@
 .designerImage{
-    /* position: relative;
-    top: -40px;
-    z-index: 2;
-    aspect-ratio: 1/1; */
-
-
     object-fit: contain;
+    height: auto;
+    /* width: auto; */
 }
 
 

@@ -10,8 +10,8 @@ export default function Hero(){
             <div className={style.leftFrame}> 
                 <div className={style.upperLeftFrame}>
                     <div className={style.headers}>
-                        <h1>You don't have to pay a fortune to <span className={style.stuff}>have an excellent website</span></h1>
-                        <h5>Get a high-converting website with a custom design without spending weeks building it yourself</h5>
+                        <h1><span className={style.stuff}>Affordable Web Design</span> for Small Businesses in Birmingham</h1>
+                        <h3>Launch a professional, high-converting website — without overspending or doing it yourself</h3>
                     </div>
                     <CTA />
                 </div>

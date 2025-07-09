@@ -10,12 +10,17 @@ export default function About() {
                     <h2 className={style.heading}>About Me</h2>
                 </div>
                 <div className={style.initialContainer}>
-                    <Image
-                        src="/images/developer-workspace.jpg"
-                        alt="a developer's workspace"
-                        height={500}
-                        width={750}
-                    />
+                    <div className={style.imageWrapper}>
+                        <Image
+                            src="/images/developer-workspace.jpg"
+                            alt="a developer's workspace"
+                            // height={500}
+                            // width={750}
+                            fill
+                            priority={true}
+                            className={style.workspaceImage}
+                            />
+                    </div>
                     <div className={style.rightContainer}>
                         <h6>
                             I am a freelance web designer who's just starting out

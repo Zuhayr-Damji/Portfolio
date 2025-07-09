@@ -3,3 +3,10 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+@media (max-width: 786px){
+    .logo {
+        text-align: center;
+        width: 100%;
+    }
+}

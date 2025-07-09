@@ -20,19 +20,19 @@ export default function Services() {
     {
       IconPath: "images/SEO-icon.svg",
       Alt: "Magnifying Glass icon",
-      subText: "Search Engine Optimisation",
+      subText: "SEO for local businesses",
       Text: "Boosts search ranking and visibility, making it easier for new customers to find your business, keeping it ahead of the competition.",
     },
     {
       IconPath: "images/Accessibility-icon.svg",
       Alt: "Accessibility icon",
-      subText: "Improving Accessibility",
+      subText: "Accessible web design",
       Text: "Makes your website user-friendly for everyone, allowing you to easily provide an inclusive experience without the hassle.",
     },
     {
       IconPath: "images/Launch-icon.svg",
       Alt: "Rocket Ship icon",
-      subText: "Setup & Launch all done for you",
+      subText: "Complete Website setup and launch",
       Text: "From setup to launch, everything is handled for you, so you can focus on running your business — not Googling how to fix a button.",
     },
   ];

@@ -4,7 +4,7 @@ import style from "./ProblemFrame.module.css";
 export default function ProblemFrame(){
     return(
         <div className={style.problemFrame}>
-            <h3 className={style.header}>We know running a business means juggling a hundred things, your website shouldn’t be one of them</h3>
+            <h3 className={style.header}>I know running a business means juggling a hundred things, your website shouldn’t be one of them</h3>
             <div className={style.subText}>
                 <h5 className={style.subHeading}>
                     If your website doesn't look professional, clients start to question whether your business is. 
@@ -13,8 +13,8 @@ export default function ProblemFrame(){
                 </h5>
                 <ul className={style.bulletPoints}>
                     <li><span className="emphasisedText">Visitors don’t take action</span > – even though they land on your site</li>
-                    <li><span className="emphasisedText">You’re embarrassed to share your link</span > - because it doesn't reflect your brand</li>
-                    <li>You’ve spent time (or money) on your site, but <span className="emphasisedText">it’s not holding anyone's attention</span ></li>
+                    <li><span className="emphasisedText">You’re embarrassed to share your link</span > - because it doesn't reflect your local business</li>
+                    <li>You’ve spent time (or money) on your site, but <span className="emphasisedText">it’s not generating leads</span ></li>
                 </ul>
             </div>
         </div>

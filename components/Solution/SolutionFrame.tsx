@@ -13,13 +13,11 @@ export default function SolutionFrame({ image }: SolutionFrameProps) {
         <h3>That's exactly what I help with</h3>
         <div className={style.subText}>
           <h6>
-            I design <span className="emphasisedText">websites that not only look great but get results</span>,
-            help your business grow consistently over time, and build trust.
+            I design <span className="emphasisedText">affordable websites that not only look great but get results</span>,
+            help your business grow in Birmingham and beyond.
           </h6>
           <h6>
-            Even though I’m just starting out professionally, <span className="emphasisedText">I’ve spent countless
-              hours learning exactly what makes visitors click</span>, stay, and
-            take action on a website.
+            While I’m early in my career, I’ve spent years studying what makes websites work — and what turns visitors into paying customers.
           </h6>
           <h6>
             <span className="emphasisedText">I treat every project like a partnership</span>. Your success is the goal —
