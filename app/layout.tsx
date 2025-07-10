@@ -7,12 +7,16 @@ export const metadata: Metadata = {
   title: 'Affordable Web Design for Small Businesses in Birmingham',
   description:
     'Professional and affordable web design for small businesses in Birmingham. Get a custom and mobile-friendly website that looks great and converts visitors into customers.',
+  icons: {
+    icon: "favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/favicon.ico" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
