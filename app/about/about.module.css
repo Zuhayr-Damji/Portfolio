@@ -1,83 +1,105 @@
-.aboutContainer{
-    padding-top: 75.5px;
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
     background: var(--primary-100);
-    display: flex;
-    flex-direction: column;
+    padding-top: 75.5px;
 }
 
-.text{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.subheading{
-    text-align: center;
-}
-
-.initialContainer{
-    padding: 16px;
-    gap: 16px;
-    display: flex;
-}
-
-.rightContainer{
-    display: flex;
-    gap:8px;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.heading{
-    text-shadow: 4px 0px 6px rgba(0,0,0,0.33);
-}
-
-.list > li{
-    font-size: var(--h6-size);
-}
-
-.tools{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 8px;
-}
-
-.imageContainer{
-    background-image: url("../../public/images/Birmingham_Skyline_from_Digbeth_tinted.png");
+.imageContainer {
+    position: relative;
     width: 100%;
     aspect-ratio: 7801 / 1993;
-    object-fit: cover;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* Default image always visible */
+.defaultBackgroundImage {
+    object-fit: cover;
+    z-index: 0;
+}
 
-.imageWrapper{
+/* 4K image layered above, but only shown on large screens */
+.fourKBackgroundImage {
+    object-fit: cover;
+    z-index: 1;
+    display: none;
+}
+
+/* Show 4K image only on wide screens (≥1920px) */
+@media (min-width: 1920px) {
+    .fourKBackgroundImage {
+        display: block;
+    }
+}
+
+.heading {
+    position: relative;
+    z-index: 2;
+    color: black;
+    text-align: center;
+}
+
+.initialContainer {
+    display: flex;
+    padding: 16px;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1086px){
+    .initialContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.helpingContainer{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.imageWrapper {
     position: relative;
     width: 100%;
-    aspect-ratio: 3 / 2;      /* Maintains 3:2 shape */
     max-width: 750px;
-    min-height: 300px;        /* Acts as a default minimum height */
+    aspect-ratio: 3 / 2;
+    min-height: 300px;
     margin-bottom: 1rem;
 }
 
-.workspaceImage{
+.workspaceImage {
     object-fit: cover;
+    border-radius: 8px;
 }
 
-.bottomContainer{
+.rightContainer {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     gap: 8px;
-    justify-content: space-around;
-    padding: 8px;
+    width: fit-content;
+    flex: 1;
 }
 
-.bottomContainer > div{
+.subheading {
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+
+.bottomContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.bottomContainer > div {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(12px);
@@ -85,22 +107,41 @@
     border-radius: 12px;
     color: black;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-
+    flex: 1;
+    min-width: 280px;
 }
 
+.list > li {
+    font-size: var(--h6-size);
+}
 
-@media (max-width: 768px){
-    .aboutContainer{
-        padding-top: 0px;
+.tools {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 12px;
+    align-items: center;
+    justify-items: center;
+    padding-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .aboutContainer {
+        padding-top: 0;
     }
 
-    .initialContainer{
+    .initialContainer {
         flex-direction: column;
     }
 
-    .bottomContainer{
+    .bottomContainer {
         flex-direction: column;
+        align-items: center;
     }
+}
 
-
+@media (max-width: 900px) {
+    .tools {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
 }

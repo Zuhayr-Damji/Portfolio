@@ -1,46 +1,47 @@
-.hero{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-image: url("../../public/images/Hero-img-bg.jpg");
-    background-size: cover;
-    height: 950px;
-    
-    padding: 16px 32px;
-    gap: 32px;
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("/images/Hero-img-bg.jpg");
+  /* not using nextjs for the image as it reduces resolution further, this needs to be the best looking image */
+  background-size: cover;
+  height: 950px;
+
+  padding: 16px 32px;
+  gap: 32px;
 }
 
-.stuff{
-    background: radial-gradient(circle at center, var(--primary-300), var(--primary-600));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: transparent;
+.stuff {
+  background: radial-gradient(circle at center, var(--primary-300), var(--primary-600));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 
 }
 
-.leftFrame{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.leftFrame {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.upperLeftFrame{
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
-    width: 70%;
+.upperLeftFrame {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 70%;
 }
 
-.headers{
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+.headers {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 @media (max-width: 768px) {
-    .hero{
-        background-position: center;
-        padding: 16px;
-    }
+  .hero {
+    background-position: center;
+    padding: 16px;
+  }
 }

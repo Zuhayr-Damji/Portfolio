@@ -7,15 +7,19 @@ export const metadata: Metadata = {
   title: 'Affordable Web Design for Small Businesses in Birmingham',
   description:
     'Professional and affordable web design for small businesses in Birmingham. Get a custom and mobile-friendly website that looks great and converts visitors into customers.',
-  icons: {
-    icon: "favicon.ico",
-  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
+        {/* ensure the hero image loads first */}
+        <link
+          rel="preload"
+          as="image"
+          href="/images/Hero-img-bg.jpg"
+          type="image/jpeg"
+        />
         <link rel="icon" href="/favicon.ico" />
         <script
           type="application/ld+json"
@@ -38,8 +42,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 "@type": "Place",
                 "name": "Birmingham"
               },
-              "url": "https://yourdomain.com", // Replace later
-              "image": "https://yourdomain.com/images/logo.png" // Replace later
+              "url": "https://zuhayrdesign.com",
+              "image": "https://zuhayrdesign/images/logo.png"
             }),
           }}
         />
